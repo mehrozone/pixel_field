@@ -1,12 +1,12 @@
 import 'package:go_router/go_router.dart';
-import '../screens/splash_screen.dart';
-import '../screens/welcome_screen.dart';
-import '../screens/login_screen.dart';
-import '../screens/main_shell_screen.dart';
+import '../screens/auth/splash_screen.dart';
+import '../screens/welcome/welcome_screen.dart';
+import '../screens/auth/login_screen.dart';
+import '../screens/main_shell/main_shell_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../features/collection/presentation/bloc/collection_cubit.dart';
-import '../screens/bottle_detail_screen.dart';
+import '../screens/collection/bottle_detail_screen.dart';
 
 final GoRouter router = GoRouter(
   initialLocation: '/',

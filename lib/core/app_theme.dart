@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const Color background = Color(0xFF0B1519);
-  static const Color card = Color(0xFF10212B);
+  static const Color background = Color(0xff0E1C20);
+  static const Color bottomNavBarColor = Color(0xff0B1518);
+  static const Color card = Color(0xFF122329);
   static const Color yellow = Color(0xFFE1A100);
   static const Color white = Colors.white;
   static const Color white70 = Colors.white70;
@@ -32,7 +33,7 @@ class AppTheme {
           borderRadius: BorderRadius.all(Radius.circular(12)),
         ),
         elevation: 0,
-        minimumSize: const Size.fromHeight(56),
+        minimumSize: const Size.fromHeight(40),
         padding: const EdgeInsets.symmetric(vertical: 20),
       ),
     ),
